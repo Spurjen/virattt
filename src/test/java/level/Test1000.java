@@ -32,5 +32,14 @@ public class Test1000
 		String y=driver.getTitle();
 		System.out.println(y);
 		
+		if(y.equalsIgnoreCase("google"))
+		{
+			System.out.println("Title test passed");
+		}
+		else
+		{
+			System.out.println("Title test failed");
+		}
+		
 	}
 }
