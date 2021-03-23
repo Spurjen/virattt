@@ -40,8 +40,5 @@ public class Test1000
 		{
 			System.out.println("Title test failed");
 		}
-		
-	
-		
 	}
 }
