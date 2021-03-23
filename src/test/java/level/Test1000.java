@@ -29,5 +29,8 @@ public class Test1000
 			System.out.println("not secured");
 		}
 		
+		String y=driver.getTitle();
+		System.out.println(y);
+		
 	}
 }
